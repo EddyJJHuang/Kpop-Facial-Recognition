@@ -46,5 +46,5 @@ if __name__ == '__main__':
     #recognizer.train(faces,names)#np.array(ids)
     recognizer.train(faces,np.array(ids))
     #保存文件
-    recognizer.write('trainer/trainer.yml')
+    recognizer.write('/Users/eddy_huang/Downloads/Python/facial recognition/Kpop-Facial-recognition/Kpop-Facial-Recognition/trainer/trainer.yml')
     #save_to_file('names.txt',names)
