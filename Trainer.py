@@ -48,11 +48,4 @@ if __name__ == '__main__':
     recognizer.train(faces,np.array(ids))
     #保存文件
     recognizer.write('/Users/eddy_huang/Downloads/Python/facial recognition/Kpop-Facial-recognition/Kpop-Facial-Recognition/trainer/trainer.yml')
-    #save_to_file('names.txt',names)
-
-#recognizer
-recogizer=cv2.face.LBPHFaceRecognizer_create()
-recogizer.read('trainer/trainer.yml')
-names=[]
-warningtime = 0
 
